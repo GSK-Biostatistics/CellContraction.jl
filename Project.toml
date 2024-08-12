@@ -1,0 +1,31 @@
+name = "CellContraction"
+uuid = "7efe1edd-6235-4f51-b0d0-dd5ccbe2ad50"
+authors = ["Stefano Longobardi"]
+version = "1.0.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+ForceImport = "9dda63f9-cce7-5873-89fa-eccbb2fffcde"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Peaks = "18e31ff7-3703-566c-8e60-38913d67486b"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
