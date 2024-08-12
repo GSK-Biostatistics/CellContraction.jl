@@ -1,0 +1,14 @@
+Compound,EC50,Mechanism
+Bay-K_8644,0.04,ICaL_increase
+CaCl2,2800,Cao_increase
+Caffeine,1064,RyR_increase
+Digoxin,6.1,INaK_decrease
+EMD-57003,1.2,Myo_increase
+Levosimendan,1.9,Ca50_decrease
+N-106,0.006,SERCA_increase
+Omecamtiv_Mecarbil,0.6,Myo_increase
+Ouabain,11.2,INaK_decrease
+SEA-0400,1.24,INCX_decrease
+Isoproterenol,0.0093,Beta_agonist
+Epinephrine,0.03,Beta_agonist
+Dobutamine,0.07,Beta_agonist
