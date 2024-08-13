@@ -18,24 +18,24 @@ A Julia implementation of the human ventricular cell electro-mechanics [Margara 
 To get a copy of the project, make sure to have [git](https://git-scm.com) installed on your machine. Then, assuming you have correctly enstablished SSH connection to GitHub, type in your terminal:
 
 ```
-$ git clone git@github.com:gsk-tech/CellContraction.jl.git
+git clone git@github.com:GSK-Biostatistics/CellContraction.jl.git
 ```
 
 ---
 ## Prerequisites
-To be able to run the project, you need to have [Julia](https://julialang.org/downloads/) (>=1.8.5) installed on your machine.
+To be able to run the project, you need to have [Julia](https://julialang.org/downloads/) (>=1.10.0) installed on your machine.
 
 ---
 ## Installation
 Go to the package directory and enter the Julia REPL, then enter the Pkg REPL by pressing ] from the Julia REPL
 ```
-$ cd CellContraction.jl
+$ cd CellContraction.jl/
 $ julia
 julia> ]
 ```
 In the Pkg REPL, activate `CellContraction.jl` project environment from the current working directory and instantiate it
 ```
-(@v1.8) pkg> activate .
+(@v1.10) pkg> activate .
 (CellContraction) pkg> instantiate
 ```
 The last command will 'resolve' the environment to install all the latest versions of the dependencies compatible with the project. A `Manifest.toml` file will be generated as a result of this operation.
